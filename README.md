@@ -1,4 +1,4 @@
-# simple-bank app with golang
+# Simple-Bank App with Golang
 
 ## Prerequires
 
