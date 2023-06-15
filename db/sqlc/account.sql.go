@@ -9,7 +9,7 @@ import (
 	"context"
 )
 
-const crateAccount = `-- name: CrateAccount :one
+const createAccount = `-- name: CreateAccount :one
 INSERT INTO accounts (
     owner,
     balance,
@@ -20,14 +20,14 @@ INSERT INTO accounts (
 RETURNING id, owner, balance, currency, created_at
 `
 
-type CrateAccountParams struct {
+type CreateAccountParams struct {
 	Owner    string `json:"owner"`
 	Balance  int64  `json:"balance"`
 	Currency string `json:"currency"`
 }
 
-func (q *Queries) CrateAccount(ctx context.Context, arg CrateAccountParams) (Account, error) {
-	row := q.db.QueryRowContext(ctx, crateAccount, arg.Owner, arg.Balance, arg.Currency)
+func (q *Queries) CreateAccount(ctx context.Context, arg CreateAccountParams) (Account, error) {
+	row := q.db.QueryRowContext(ctx, createAccount, arg.Owner, arg.Balance, arg.Currency)
 	var i Account
 	err := row.Scan(
 		&i.ID,
