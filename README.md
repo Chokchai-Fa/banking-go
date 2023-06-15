@@ -10,6 +10,6 @@
 ## Go Package which using in Project
 
 1. pq: Postgres Driver -> https://github.com/lib/pq
-2. testify: For write an unittest -> https://github.com/stretchr/testify
+2. testify: For write an unit-test -> https://github.com/stretchr/testify
 
 As for command usage -> You can see at Make
