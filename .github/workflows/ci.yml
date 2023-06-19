@@ -41,7 +41,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Install go-Migration
-      run: curl -L https://github.com/golang-migrate/migrate/releases/download/$version/migrate.$os-$arch.tar.gz | tar xvz
+      run: curl -L https://github.com/golang-migrate/migrate/releases/download/v4.16.2/migrate.darwin-amd64.tar.gz | tar xvz
 
     - name: Run DB Migration
       run: make migrateup
