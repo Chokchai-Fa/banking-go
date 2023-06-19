@@ -1,5 +1,8 @@
 # Simple-Bank App with Golang
 
+## UML-Diagram for Banking App
+![plot](./images/umldiagram.png)
+
 ## Prerequires
 
 1. go-migration: For do a DB migration -> https://github.com/golang-migrate/migrate
