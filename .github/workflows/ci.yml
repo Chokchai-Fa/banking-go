@@ -22,7 +22,7 @@ jobs:
           - 5432:5432
         env:
           POSTGRES_USERNAME: root
-          POSTGRES_PASSWORD: "Phukao98765"
+          POSTGRES_PASSWORD: Phukao98765
           POSTGRES_DB: simple_bank
         # Set health checks to wait until postgres has started
         options: >-
