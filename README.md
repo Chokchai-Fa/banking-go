@@ -14,6 +14,7 @@
 
 1. pq: Postgres Driver -> https://github.com/lib/pq
 2. testify: For write an unit-test -> https://github.com/stretchr/testify
-3. Gin: HTTP REST Framework -> https://github.com/gin-gonic/gin
+3. gin: HTTP REST Framework -> https://github.com/gin-gonic/gin
+4. viper: ENV Variabels loading tools -> https://github.com/spf13/viper
 
-As for command usage -> You can see at Make
+As for command usage -> You can see at Makefile
