@@ -16,5 +16,6 @@
 2. testify: For write an unit-test -> https://github.com/stretchr/testify
 3. gin: HTTP REST Framework -> https://github.com/gin-gonic/gin
 4. viper: ENV Variabels loading tools -> https://github.com/spf13/viper
+5. gomock: For mocking DB for unit-test (* Need to export PATH before using: export PATH=$PATH:~/go/bin ) -> https://github.com/golang/mock
 
 As for command usage -> You can see at Makefile
