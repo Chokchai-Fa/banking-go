@@ -1,7 +1,7 @@
 # Simple-Bank App with Golang
 
 ## UML-Diagram for Simple-Bank App
-![plot](./images/uml2.png)
+![plot](./images/uml-2.png)
 
 ## Prerequires
 
