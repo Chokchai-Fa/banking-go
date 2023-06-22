@@ -17,5 +17,7 @@
 3. gin: HTTP REST Framework -> https://github.com/gin-gonic/gin
 4. viper: ENV Variabels loading tools -> https://github.com/spf13/viper
 5. gomock: For mocking DB for unit-test (* Need to export PATH before using: export PATH=$PATH:~/go/bin ) -> https://github.com/golang/mock
+6. golang-jwt: Making JWT Token for Authenticaiton Process -> https://github.com/golang-jwt/jwt
+7. pasteo: Making Pasteo Token for Authenticaiton Process -> https://github.com/o1egl/paseto
 
 As for command usage -> You can see at Makefile
